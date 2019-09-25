@@ -13,6 +13,7 @@
 		B569F444233AA89D006B6AD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B569F442233AA89D006B6AD9 /* Main.storyboard */; };
 		B569F446233AA89E006B6AD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B569F445233AA89E006B6AD9 /* Assets.xcassets */; };
 		B569F449233AA89E006B6AD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B569F447233AA89E006B6AD9 /* LaunchScreen.storyboard */; };
+		B569F455233BF906006B6AD9 /* abel-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B569F454233BF906006B6AD9 /* abel-regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B569F445233AA89E006B6AD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B569F448233AA89E006B6AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B569F44A233AA89E006B6AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B569F454233BF906006B6AD9 /* abel-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "abel-regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,10 @@
 		B569F43B233AA89C006B6AD9 /* Mara Fashion */ = {
 			isa = PBXGroup;
 			children = (
+				B569F453233BF8F6006B6AD9 /* Resources */,
+				B569F452233AA927006B6AD9 /* View */,
+				B569F451233AA922006B6AD9 /* Model */,
+				B569F450233AA915006B6AD9 /* Controller */,
 				B569F43C233AA89C006B6AD9 /* AppDelegate.swift */,
 				B569F43E233AA89C006B6AD9 /* SceneDelegate.swift */,
 				B569F440233AA89C006B6AD9 /* ViewController.swift */,
@@ -65,6 +71,35 @@
 				B569F44A233AA89E006B6AD9 /* Info.plist */,
 			);
 			path = "Mara Fashion";
+			sourceTree = "<group>";
+		};
+		B569F450233AA915006B6AD9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B569F451233AA922006B6AD9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B569F452233AA927006B6AD9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B569F453233BF8F6006B6AD9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B569F454233BF906006B6AD9 /* abel-regular.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +163,7 @@
 				B569F449233AA89E006B6AD9 /* LaunchScreen.storyboard in Resources */,
 				B569F446233AA89E006B6AD9 /* Assets.xcassets in Resources */,
 				B569F444233AA89D006B6AD9 /* Main.storyboard in Resources */,
+				B569F455233BF906006B6AD9 /* abel-regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
